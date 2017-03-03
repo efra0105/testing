@@ -337,3 +337,8 @@
 .navbar-collapse{
   border-color: transparent !important;
 }
+
+.sdsu_logo{
+  max-width: 80px;
+  margin-top: -5px;
+}
