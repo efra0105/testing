@@ -2,3 +2,7 @@ this is cool
 -efra
 
 Artin wuz here
+
+http://www.inmotionhosting.com/support/edu/website-design/using-php-and-mysql/php-insert-database
+
+//we can implement this easily
