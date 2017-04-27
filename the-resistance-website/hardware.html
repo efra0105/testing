@@ -38,7 +38,7 @@
           <li><a href="./software.html"><span class="navbar_links">Software</span></a></li>
           <li><a href="./hardware.html"><span class="navbar_links">Hardware</span></a></li>
           <li><a href="./team.html"><span class="navbar_links">The Team</span></a></li>
-		  <li><a href="./suggestion.html"><span class="navbar_links">Suggestions</span></a></li>
+		  <li><a href="./suggestion.html"><span class="navbar_links">Contact Us</span></a></li>
           <li class="sdsu_logo margin_left"><img class="width_120 img-responsive" src="./images/sdsu_logo.png" alt="SDSU Logo"></li>
         </ul>
 
@@ -49,7 +49,7 @@
           <li><a href="./software.html"><span class="navbar_links">Software</span></a></li>
           <li><a href="./hardware.html"><span class="navbar_links">Hardware</span></a></li>
           <li><a href="./team.html"><span class="navbar_links">The Team</span></a></li>
-		  <li><a href="./suggestion.html"><span class="navbar_links">Suggestions</span></a></li>
+		  <li><a href="./suggestion.html"><span class="navbar_links">Contact Us</span></a></li>
           <li class="margin_top margin_left margin_bottom"><img class="width_80" src="./images/sdsu_logo.png" alt="SDSU Logo"></li>
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -71,16 +71,109 @@
         <div class="space-10"></div>
     	  <p class="bigger bold">Hardware</p>
         <p>3DR Solo Drone<br>Raspberry Pi 3 (Model B)
-          <br>Pixy CMUcam5 Vision Sensor<br>Servo Motor
-          <br>3D Printed Release Mechanism<br>3D Printed Housing</p>
+          <br>Pixy CMUcam5 Vision Sensor<br>PIC Microcontroller<br>Futuba Servo Motor
+          <br>3D-printed Release Mechanism<br>Voltage Regulator<br>RF Receiver</p>
         <br>
         <div class="space-16"></div>
       </div>
       <div class="text-center">
-        <br><img class="img-responsive center-block" src="./images/hardwarediagram_updated.JPG" alt="Hardware Diagram">
-        <br></br>
+        <br><img class="img-responsive center-block" src="./images/hardwarediagram_updated2.png" alt="Hardware Diagram">
+        
+		<br></br><br>
+		
+		<div class="container-fluid fixed-bg">
+	    <div class="row">
+	      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
+	        <div class="space-30"></div>
+	    	  <p class="bigger bold">3DR Solo Drone</p>
+			  <br><img class="img-responsive center-block" src="./images/3dr solo drone.png" alt="Efrain Magallon" height="400" width="400">
+	          <p>The 3DR Solo Drone is the main chassis of our project. It contains the power supply
+			  that will power all the components in our design. The 3DR has a compass and GPS for
+	          navigating, electronic speed (ESCS) for controlling the motors of the propellers
+			  for flight, and the SoloLink Companion Board and accesory bay for connecting to the other
+	          components of this design. It also has th Pixhawk as its flight controller. The external
+			  controller is connected via WiFi and will be used in case of emergencies.</p>
+	        <div class="space-16"></div>
+	      </div>
+		  
+	    <br>
+		<div class="container-fluid fixed-bg">
+		<div class="row">
+		  <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
+		  	<div class="space-30"></div>
+		  	    	<p class="bigger bold">Raspberry Pi 3 (Model B) and Carrier Board</p>
+					<br><img class="img-responsive center-block" src="./images/rpi1bplus.png" alt="Efrain Magallon" height="400" width="400">
+		  	    	<p>The brains of the whole system that process all the navigation and image detection written in
+		  			Python scrips. The Raspberry Pi (RPi) and Carrier Board will distribute power received from the 3DR  
+		            Solo Drone and will be the main connection point for all components. The Raspberry Pi 3 is 
+		  	    	directly attached to the carrier board and will be the brains for our project - receiving.</p>
+		  	    <div class="space-16"></div>
+		  	    </div>
+				
+				<br>
+				        <div class="container-fluid fixed-bg">
+					    <div class="row">
+					    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
+					    <div class="space-30"></div>
+					    	<p class="bigger bold">Pixy CMUCam5</p>
+							<br><img class="img-responsive center-block" src="./images/pixy.png" alt="Efrain Magallon" height="400" width="400">
+					    	<p>An open-source vision sensor that is capable of detecting the location of the object based 
+				            on its color. Once, over the waypoint, Pixy cam will then scan the field of view to find
+					    	for the identified  waypoint marker. Then, it will calculate the pixel-to-centimeter ratio
+						    based on the actual size of the target.</p>  
+					    <div class="space-16"></div>
+					    </div>
+						
+						<br>
+						        <div class="container-fluid fixed-bg">
+							    <div class="row">
+							    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
+							    <div class="space-30"></div>
+							    	<p class="bigger bold">PIC Microcontroller</p>
+									<br><img class="img-responsive center-block" src="./images/pic16.png" alt="Efrain Magallon" height="400" width="400">
+							    	<p>Sets the proper PWM signals to rotate the serco motor as to assigned arcs.</p>
+							    <div class="space-16"></div>
+							    </div>
+								
+						        <br>
+								<div class="container-fluid fixed-bg">
+							    <div class="row">
+							    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
+							    <div class="space-30"></div>
+							    	<p class="bigger bold">Futuba Servo Motor and 3D-Printed Drop Mechanism</p>
+									<br><img class="img-responsive center-block" src="./images/futuba.png" alt="Efrain Magallon" height="400" width="400">
+							    	<br><p>The Futuba servo motor is connected to RPi carrier board via servo connection.
+									This motor will rotate exactly 90 degrees to each compartment to release a payload.
+									Attached is an enclosed rotary mechanism that holds the designated payload to be delivered. A 									PIC microcontroller, commanded by the Raspberry Pi, sends corresponding PWM signals to the servo
+							    	which rotates the 3D-printed dispenser. Each single rotation will drop a payload at each 
+									waypoint once the drone has confirmed its location.</p>   
+							    <div class="space-16"></div>
+							    </div>
+								<br>
+								 <div class="container-fluid fixed-bg">
+							     <div class="row">
+								 <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
+								 <div class="space-30"></div>
+									 <p class="bigger bold">Voltage Regulator</p>
+									<br><img class="img-responsive center-block" src="./images/voltage_reg.png" alt="Efrain Magallon" height="400" width="400">
+									    <p>Allows to safely connect to on-board voltage source within drone.</p>
+									    <div class="space-16"></div>
+									    </div>
+										
+								<br>
+								<div class="container-fluid fixed-bg">
+								<div class="row">
+								<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
+								<div class="space-30"></div>
+									<p class="bigger bold">RF Receiver</p>
+									<br><img class="img-responsive center-block" src="./images/RF Receiver.png" alt="Efrain Magallon" height="400" width="400">
+									<p>A small electronic device that receives radio frequency signals from a transmitting beacon.</p>
+								<div class="space-16"></div>
+								</div>
+								<br>
+											    
       </div>
-    </div>
+    <div class="space-30"></div>
   </div>
 
 </body>
