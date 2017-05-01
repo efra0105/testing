@@ -1,333 +1,333 @@
 .open_sans{
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .width_80{
-  width: 80px;
+    width: 80px;
 }
 
 .width_100{
-  width: 100px;
+    width: 100px;
 }
 
 
 .width_115{
-  width: 115px;
+    width: 115px;
 }
 
 .width_120{
-  width: 120px;
+    width: 120px;
 }
 
 .width_200{
-  width: 200px;
+    width: 200px;
 }
 
 .small{
-  font-size: .8em !important;
+    font-size: .8em !important;
 }
 
 .normal{
-  font-size: 1em !important;
+    font-size: 1em !important;
 }
 
 .big{
-  font-size: 1.2em !important;
+    font-size: 1.2em !important;
 }
 
 .bigger{
-  font-size: 1.4em !important;
-  line-height: 1.3em;
+    font-size: 1.4em !important;
+    line-height: 1.3em;
 }
 
 .biggest{
-  font-size: 1.8em !important;
-  line-height: 1.3em;
+    font-size: 1.8em !important;
+    line-height: 1.3em;
 }
 
 .huge{
-  font-size: 3em !important;
+    font-size: 3em !important;
 }
 
 .underline_hover:hover{
-  padding-bottom: 2px;
-  border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
 }
 
 /* Padding and Margin Classes */
 
 /* None */
 .no_padding_top{
-  padding-top: 0px !important;
+    padding-top: 0px !important;
 }
 
 .no_padding_left{
-  padding-left: 0px !important;
+    padding-left: 0px !important;
 }
 
 .no_padding_right{
-  padding-right: 0px !important;
+    padding-right: 0px !important;
 }
 
 .no_padding_bottom{
-  padding-bottom: 0px !important;
+    padding-bottom: 0px !important;
 }
 
 .no_margin_top{
-  margin-top: 0px !important;
+    margin-top: 0px !important;
 }
 
 .no_margin_left{
-  margin-left: 0px !important;
+    margin-left: 0px !important;
 }
 
 .no_margin_right{
-  margin-right: 0px !important;
+    margin-right: 0px !important;
 }
 
 .no_margin_bottom{
-  margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 /* 5px */
 .padding_xs_top{
-  padding-top: 5px !important;
+    padding-top: 5px !important;
 }
 
 .padding_xs_left{
-  padding-left: 5px !important;
+    padding-left: 5px !important;
 }
 
 .padding_xs_right{
-  padding-right: 5px !important;
+    padding-right: 5px !important;
 }
 
 .padding_xs_bottom{
-  padding-bottom: 5px !important;
+    padding-bottom: 5px !important;
 }
 
 .margin_xs_top{
-  margin-top: 5px !important;
+    margin-top: 5px !important;
 }
 
 .margin_xs_left{
-  margin-left: 5px !important;
+    margin-left: 5px !important;
 }
 
 .margin_xs_right{
-  margin-right: 5px !important;
+    margin-right: 5px !important;
 }
 
 .margin_xs_bottom{
-  margin-bottom: 5px !important;
+    margin-bottom: 5px !important;
 }
 
 /* 10px */
 .padding_sm_top{
-  padding-top: 10px !important;
+    padding-top: 10px !important;
 }
 
 .padding_sm_left{
-  padding-left: 10px !important;
+    padding-left: 10px !important;
 }
 
 .padding_sm_right{
-  padding-right: 10px !important;
+    padding-right: 10px !important;
 }
 
 .padding_sm_bottom{
-  padding-bottom: 10px !important;
+    padding-bottom: 10px !important;
 }
 
 .margin_sm_top{
-  margin-top: 10px !important;
+    margin-top: 10px !important;
 }
 
 .margin_sm_left{
-  margin-left: 10px !important;
+    margin-left: 10px !important;
 }
 
 .margin_sm_right{
-  margin-right: 10px !important;
+    margin-right: 10px !important;
 }
 
 .margin_sm_bottom{
-  margin-bottom: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 /* 15px */
 .padding{
-  padding: 15px !important;
+    padding: 15px !important;
 }
 
 .padding_top{
-  padding-top: 15px !important;
+    padding-top: 15px !important;
 }
 
 .padding_left{
-  padding-left: 15px !important;
+    padding-left: 15px !important;
 }
 
 .padding_right{
-  padding-right: 15px !important;
+    padding-right: 15px !important;
 }
 
 .padding_bottom{
-  padding-bottom: 15px !important;
+    padding-bottom: 15px !important;
 }
 
 .margin_top{
-  margin-top: 15px !important;
+    margin-top: 15px !important;
 }
 
 .margin_left{
-  margin-left: 15px !important;
+    margin-left: 15px !important;
 }
 
 .margin_right{
-  margin-right: 15px !important;
+    margin-right: 15px !important;
 }
 
 .margin_bottom{
-  margin-bottom: 15px !important;
+    margin-bottom: 15px !important;
 }
 
 /* end padding and margin classess */
 
 .navbar{
-  min-height: 80px !important;
+    min-height: 80px !important;
 }
 
 .space-32 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 32px 0 31px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 32px 0 31px;
 }
 
 .space-30 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 30px 0 29px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 30px 0 29px;
 }
 
 .space-28 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 28px 0 27px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 28px 0 27px;
 }
 
 .space-26 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 26px 0 25px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 26px 0 25px;
 }
 
 .space-24 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 24px 0 23px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 24px 0 23px;
 }
 
 .space-22 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 22px 0 21px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 22px 0 21px;
 }
 
 .space-20 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 20px 0 19px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 20px 0 19px;
 }
 
 .space-18 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 18px 0 17px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 18px 0 17px;
 }
 
 .space-16 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 16px 0 15px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 16px 0 15px;
 }
 
 .space-14 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 14px 0 13px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 14px 0 13px;
 }
 
 .space-12 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 12px 0 11px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 12px 0 11px;
 }
 
 .space-10 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 10px 0 9px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 10px 0 9px;
 }
 
 .space-8 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 8px 0 7px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 8px 0 7px;
 }
 
 .space-6 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 6px 0 5px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 6px 0 5px;
 }
 
 .space-4 {
-  max-height: 1px;
-  min-height: 1px;
-  overflow: hidden;
-  margin: 12px 0;
-  margin: 4px 0 3px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: hidden;
+    margin: 12px 0;
+    margin: 4px 0 3px;
 }
 
 .navbar_links{
-  color: black !important;
-  padding: 10px 0px 0px 0px !important;
-  margin: 0px !important;
-  font-weight: bold !important;
+    color: black !important;
+    padding: 10px 0px 0px 0px !important;
+    margin: 0px !important;
+    font-weight: bold !important;
 }
 
 .navbar_links:hover{
-  color: #c5132f !important;
-  border-bottom: 2px solid #c5132f !important
+    color: #c5132f !important;
+    border-bottom: 2px solid #c5132f !important
 }
 
 .fixed-bg {
@@ -340,40 +340,56 @@
 }
 
 .bold{
-  font-weight: bold !important;
+    font-weight: bold !important;
 }
 
 .full_width{
-  width: 100%;
+    width: 100%;
 }
 
 .navbar-collapse{
-  border-color: transparent !important;
+    border-color: transparent !important;
 }
 
 .sdsu_logo{
-  max-width: 80px;
-  margin-top: -5px;
+    max-width: 80px;
+    margin-top: -5px;
 }
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
 }
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .no_underline{
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 .white_background{
-  background-color: white !important;
+    background-color: white !important;
+    padding: 15px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
